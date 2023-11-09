@@ -14,12 +14,12 @@ function GonWebhook(Nextar)
     url = "https://cdn.discordapp.com/emojis/1016295109970645022.gif?size=80&quality=lossless"
     }
     $color = Get-Random -Minimum 0 -Maximum 16777215
-    $title = 'nextar26 - Rotation'
-    $description = "**]]..nextar26..[[**"
+    $title = ' - Rotation'
+    $description = "**]]....[[**"
   
     $footer = [PSCustomObject]@{
         icon_url = "https://cdn.discordapp.com/emojis/978628955907170314.gif?size=96&quality=lossless"
-        text = "nextar26]].." | Date : "..(os.date"%d/%m/%y":upper().." Hour : ")..os.date("%I")..":"..os.date("%M").." "..os.date("%p"):upper()..[["
+        text = "]].." | Date : "..(os.date"%d/%m/%y":upper().." Hour : ")..os.date("%I")..":"..os.date("%M").." "..os.date("%p"):upper()..[["
     }
   
     $embedObject = [PSCustomObject]@{
